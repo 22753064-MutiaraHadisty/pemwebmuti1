@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100px;
+    font-family: Georgia, 'Times New Roman';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #2c2f30;
+}
+
+/* header nav */
+header.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 1rem;
+    z-index: 999;
+    background-color: #425c77;
+    position: fixed;
+}
+
+header.navbar-container .logo img {
+    width: 100px;
+    float: left;
+}
+
+header.navbar-container .logo {
+    width: 70%;
+    background-color: #a4aaac;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+header.navbar-container .logo h3 {
+    float: left;
+    padding-right: 30px;
+}
+
+header.navbar-container .nav-list ul {
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+    padding-top: 10px;
+}
+
+header.navbar-container .nav-list li {
+    list-style-type: none;
+}
+
+header.navbar-container .nav-list li a {
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: white;
+    padding: .5rem 1.5rem;
+    transition: all .2s ease-in-out;
+}
+
+header.navbar-container .nav-list li:hover a {
+    background-color: #fafafa;
+    color: black;
+}
+
+/* header */
+.kotak {
+    width: 300px;
+    margin: 0 0 20px 20px;
+    float: left;
+    position: relative;
+    left: 100px;
+    background-color: white;
+    opacity: .7;
+}
+
+.kotak img {
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* content */
+main {
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    align-items: center;
+    max-width: 1400px;
+    height: 1400px;
+}
+
+main.content {
+    align-items: center;
+}
+
+main .content .content-description-CSS {
+    float: right;
+    width: 70%;
+    margin-top: 50px;
+}
+
+main .content .content-description-HTML {
+    float: right;
+    width: 70%;
+}
+
+main .content .content-description-HTML h1 {
+    color: rgb(146, 137, 113);
+    clear: both;
+    padding-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+main .content .content-description-CSS h1 {
+    color: rgb(146, 142, 130);;
+    width: auto;
+    clear: both;    
+    text-align: center;
+}
+
+main .content .content-description-HTML p {
+    line-height: 1.7rem;
+    font-size: 1.2 rem;
+    width: auto;
+    float: left;
+    text-align: justify;
+    color: azure;
+}
+
+main .content .content-description-CSS p {
+    line-height: 1.7rem;
+    font-size: 1.2 rem;
+    width: auto;
+    float: left;
+    text-align: justify;
+    color: azure;
+}
+
+main .content .content-image {
+    float: left;
+    padding-top: 120px;
+}
+
+main .content .content-image img {
+    width: 150px;
+    
+    border-radius: 50%;
+    float: left;
+    padding-top: 50px;
+}
+
+main .content .content-image:hover img {
+    margin: auto;
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+
+.main .img {
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    font-weight: 500;
+    clear: both;
+    background-color: #90bff1;
+    padding: 10px;
+    width: 100%;
+    line-height: 40px;
+}
